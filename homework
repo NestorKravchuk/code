@@ -1,0 +1,19 @@
+count = 1
+while count < 3:
+    count = count + 1
+    name = input("Tell me your word/")
+    print (name)
+
+
+    if name == "Nestor":
+            print ("accsess granted")
+            password = input("tell me the password/")
+            if password == "1234" :
+                print ("file opened")
+    if name == "Nicole":
+            print ("accsess denied")
+            print ("try again!")
+    if name == "Maria":
+            print ("accsess denied")
+            print ("try again!")
+                              py
