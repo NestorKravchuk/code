@@ -1,0 +1,64 @@
+count = 0
+answer_one = input("Tell me my pet: ")
+if answer_one.lower() == "lizard":
+    print("Correct!")
+    count = count + 1
+print("Next question")
+
+
+# Question 2
+answer_two = input("Tell me the tallest building in the world: ")
+if answer_two.lower() == "burj khalifa":
+    print("Correct!")
+    count = count + 1
+print("Next question")
+
+
+# Question 3
+answer_three = input("Tell me the president of America: ")
+if answer_three.lower() == "trump":
+    print("Correct!")
+    count = count + 1
+print("Next question")
+
+# Question 4
+answer_four = input("Tell me the first president of America: ")
+if answer_four.lower() == "george washington":
+    print("Correct!")
+    count = count + 1
+print("Next question")
+
+# Question 5
+answer_five = input("Tell me the biggest desert in the world: ")
+if answer_five.lower() == "antarctica":
+    print("Correct!")
+    count = count + 1
+print("Next question")
+
+# Question 6
+answer_six = input("Tell me the deepest point on Earth: ")
+if answer_six.lower() == "mariana trench":
+    print("Correct!")
+    count = count + 1
+print("Next question")
+
+# Question 7
+answer_seven = input("Tell me the biggest land animal: ")
+if answer_seven.lower() == "elephant":
+    print("Correct!")
+    count = count + 1
+print("Next question")
+# Question 8
+answer_eight = input("Tell me the highest point on Earth: ")
+if answer_eight.lower() == "mount everest":
+    print("Correct!")
+    count = count + 1
+print("Next question")
+
+# Question 9
+answer_nine = input("Tell me the biggest animal of the current time: ")
+if answer_nine.lower() == "blue whale":
+    print("Correct!")
+    count = count + 1
+print("Quiz complete!")
+print (count)
